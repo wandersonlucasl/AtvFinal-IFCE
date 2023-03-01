@@ -1,0 +1,29 @@
+.imagens h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    border: 2px solid #ffb286;
+    padding: 1.5rem;
+}
+
+.photo h2{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.photo h2:first-letter{
+    text-transform: uppercase;
+}
+.photo img {
+   width: 300px;
+   margin: auto;
+}
+.photo img:hover{
+    transform: scale(1.7);
+}
